@@ -1,0 +1,134 @@
+/* Write CSS here */
+* {
+  box-sizing: content-box;
+  margin: 0px;
+  padding: 0px;
+}
+.main-bac {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: 100%;
+  padding: 50px;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+@media (width<=576px) {
+  .main-bac {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    padding: 50px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+}
+.startwatch {
+  font-size: 50px;
+  color: #333333;
+  font-family: Roboto;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+@media (width<=576px) {
+  .startwatch {
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+}
+.timer-cont {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 30%;
+  height: 40%;
+  min-width: 30%;
+  max-width: 40%;
+  min-height: 30%;
+  max-height: 40%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media (width<=576px) {
+  .timer-cont {
+    width: 90%;
+    height: 30%;
+    min-width: 30%;
+    max-width: 100%;
+    min-height: 30%;
+    max-height: 40%;
+    padding: 5px;
+  }
+}
+.timer-head {
+  text-align: center;
+}
+.timerpara {
+  text-align: center;
+}
+.buttonCont {
+  display: flex;
+  justify-content: space-around;
+}
+.btn1 {
+  background-color: #1db05f;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+  color: #ffffff;
+}
+.btn1:focus {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn2 {
+  background-color: #ef0d36;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+  color: #ffffff;
+}
+.btn3 {
+  background-color: #eaa800;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+  color: #ffffff;
+}
+.btn2:focus {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn3:focus {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media (width<=576px) {
+  .btn3 {
+    width: 25%;
+  }
+}
+.watchimageCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timerpara {
+  font-family: roboto;
+  font-size: 20px;
+  margin-top: 3px;
+}
+.imgg {
+  height: 25px;
+  margin-right: 10px;
+}
